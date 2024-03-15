@@ -1,0 +1,17 @@
+:root {
+  --container-width: 1170px;
+  --container-padding: 15px;
+
+  --font-main: "Roboto", sans-serif;
+  --font-accent: "Philosopher", sans-serif;
+
+  --page-bg: #fff;
+  --text-color: #150C01;
+  --accent: #dc780b;
+  --header-color: #150c01
+}
+
+.dark {
+  --page-bg: #252526;
+  --text-color: #fff;
+}

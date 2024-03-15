@@ -1,0 +1,35 @@
+.header {
+  position: relative;
+  z-index: 1;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.header__list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  @media (max-width: 724px) {
+    display: none;
+  }
+}
+
+.header__nav-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header__link {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--header-color);
+
+  &:hover {
+    opacity: 0.8;
+  }
+}

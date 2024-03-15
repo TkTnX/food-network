@@ -1,0 +1,51 @@
+.aboutUs {
+  margin-top: 123px;
+
+  position: relative;
+  z-index: 3;
+  &::before {
+    position: absolute;
+    z-index: -2;
+    content: "";
+    background-image: url("./../../img/aboutUs/decor.png");
+    background-position: center center; /* x y */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 957px;
+    height: 801px;
+
+    left: -450px;
+    top: -300px;
+  }
+}
+
+.aboutUs__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.aboutUs__img {
+  overflow: hidden;
+  border-radius: 20px;
+}
+.aboutUs__info {
+  max-width: 487px;
+}
+.aboutUs__hint {
+  text-align: left;
+  padding-bottom: 11px;
+}
+
+.aboutUs__title {
+  padding-bottom: 30px;
+}
+
+.aboutUs__desc {
+  padding-bottom: 30px;
+}
+
+.aboutUs__link {
+  display: block;
+  max-width: 142px;
+}
