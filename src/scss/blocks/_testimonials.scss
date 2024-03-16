@@ -1,0 +1,22 @@
+.testimonials {
+  margin-top: clamp(4.375rem, 2.784rem + 7.95vw, 8.75rem);
+  text-align: center;
+}
+
+.testimonials__hint {
+  padding-bottom: 12px;
+}
+
+.testimonials__title {
+  padding-bottom: 23px;
+}
+
+.testimonials__desc {
+  padding-bottom: clamp(2.5rem, 1.75rem + 3.75vw, 4.563rem);
+
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.testimonials__cards {
+}

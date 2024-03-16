@@ -1,0 +1,39 @@
+.footer {
+  padding: 137px 0 104px;
+  background-color: #252525;
+  color: #fff;
+}
+
+.footer__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+
+  @media (max-width: 629px) {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+}
+.footer__company {
+}
+.footer__list {
+  display: grid;
+  gap: 17px;
+}
+.footer__item {
+  font-size: 14px;
+  opacity: 0.7;
+}
+.footer__item-title {
+  opacity: 1;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: var(--font-accent);
+}
+.footer__socials {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

@@ -1,0 +1,38 @@
+.testimonials__card {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.testimonials__card-img {
+  justify-self: center;
+  padding-bottom: 40px;
+  img {
+    border-radius: 50%;
+  }
+}
+.testimonials__card-title {
+  padding-bottom: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.testimonials__rating {
+  padding-bottom: 32px;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  gap: 5px;
+}
+.testimonials__star {
+}
+.testimonials__user {
+}
+.testimonials__user-name {
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #000;
+}
+.testimonials__user-work {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #000;
+}
