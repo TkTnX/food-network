@@ -17,6 +17,26 @@
 
     left: -450px;
     top: -300px;
+    @media (max-width: 1800px) {
+      left: -50%;
+    }
+    @media (max-width: 1366px) {
+      top: -100px;
+      left: -60%;
+    }
+    @media (max-width: 615px) {
+      width: 757px;
+      height: 500px;
+    }
+    @media (max-width: 530px) {
+      width: 557px;
+      height: 300px;
+      top: 30%;
+      bottom: 0;
+    }
+    @media (max-width: 363px) {
+      display: none;
+    }
   }
 }
 
@@ -24,10 +44,23 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 20px;
+  @media (max-width: 885px) {
+    flex-direction: column;
+    gap: 50px;
+  }
 }
 .aboutUs__img {
   overflow: hidden;
   border-radius: 20px;
+  @media (max-width: 1099px) {
+    img {
+      max-width: 500px;
+      @media (max-width: 530px) {
+        width: 100%;
+      }
+    }
+  }
 }
 .aboutUs__info {
   max-width: 487px;

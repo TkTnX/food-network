@@ -4,7 +4,6 @@
 );
 html {
   scroll-behavior: smooth;
-  background-color: rgb(39, 39, 39);
 }
 
 body {
@@ -77,6 +76,10 @@ pre.code {
   font-weight: 700;
   font-size: 31px;
   text-transform: capitalize;
+
+  @media (max-width: 435px) {
+      font-size: 26px;
+  }
 }
 
 .text-1 {
@@ -96,4 +99,21 @@ pre.code {
   text-transform: uppercase;
   text-align: center;
   color: var(--accent);
+}
+
+
+.btn-noBg {
+  padding: 20px 40px;
+
+    border: 1px solid var(--accent);
+  border-radius: 5px;
+  color: var(--accent);
+  transition: background-color 0.2s ease-in, color 0.2s ease-in;
+  &:hover {
+    background-color: var(--accent);
+    color: #fff;
+  }
+  &:active {
+    transform: translateY(5px);
+  }
 }

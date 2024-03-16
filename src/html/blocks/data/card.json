@@ -1,0 +1,44 @@
+[
+  {
+    "img": "01.jpg",
+    "title": "Vegie Muffen",
+    "price": "16",
+    "desc": "There are many things are needed to start the Fast Food Business.",
+    "rating": "4"
+  },
+  {
+    "img": "02.jpg",
+    "title": "Salads",
+    "price": "12",
+    "desc": "There are many things are needed to start the Fast Food Business.",
+    "rating": "5"
+  },
+  {
+    "img": "03.jpg",
+    "title": "Burger",
+    "price": "10",
+    "desc": "There are many things are needed to start the Fast Food Business.",
+    "rating": "3"
+  },
+  {
+    "img": "04.jpg",
+    "title": "Delmonico Steak dish",
+    "price": "14",
+    "desc": "There are many things are needed to start the Fast Food Business.",
+    "rating": "2"
+  },
+  {
+    "img": "05.jpg",
+    "title": "Egg Masala",
+    "price": "9",
+    "desc": "There are many things are needed to start the Fast Food Business.",
+    "rating": "4"
+  },
+  {
+    "img": "06.jpg",
+    "title": "Peach Melba dish",
+    "price": "15",
+    "desc": "There are many things are needed to start the Fast Food Business.",
+    "rating": "3"
+  }
+]

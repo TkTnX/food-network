@@ -1,0 +1,29 @@
+<li class="card">
+  <div class="card__img">
+    <img src="./../../../img/card/@@img" alt="food" />
+  </div>
+  <div class="card__info">
+    <div class="card__top">
+      <h4 class="card__title">@@title</h4>
+      <p class="card__price">@@price$</p>
+    </div>
+    <p class="card__desc text-1">
+      @@desc
+    </p>
+    <div class="card__bottom">
+      <button class="card__btn">
+        <img src="./../../../img/card/x.svg" alt="add to cart" />
+      </button>
+      <ul class="card__stars">
+        @@for (var i = 0; i < context.rating; i++) {
+        <li class="card__star">
+          <img src="./../../../img/card/star.svg" alt="star" />
+        </li>
+        } @@if (context.rating < 5) { @@for (var i = 0; i < 5 - context.rating;
+        i++) {
+        <img src="./../../../img/card/star-off.svg" alt="star off" />
+        } }
+      </ul>
+    </div>
+  </div>
+</li>

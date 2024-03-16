@@ -1,0 +1,31 @@
+.menu {
+  margin-top: 150px;
+}
+
+.menu__hint {
+  padding-bottom: 9px;
+}
+
+.menu__title {
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.menu__desc {
+  text-align: center;
+}
+.menu__list {
+  margin-top: 60px;
+  padding-bottom: 60px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 30px;
+}
+
+.menu__btn {
+  display: block;
+  max-width: 172px;
+  text-align: center;
+  margin: 0 auto;
+}
